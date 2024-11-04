@@ -1,0 +1,23 @@
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://example.com/your-background-image.jpg'); 
+    background-position: center; 
+    color: #095404; 
+    font-family: 'Arial', sans-serif; 
+    font-size: 96px; 
+    border: 5px solid transparent; 
+    border-radius: 10px; 
+    transition: border-color 0.3s; 
+    background-image: url('https://img.freepik.com/free-photo/green-park-view_1417-1492.jpg');
+background-repeat:no-repeat;
+background-size: cover;
+}
+.clock:hover {
+    border-color: #04540c; 
+    /* border-radius: 20cm; */
+}
+
+
